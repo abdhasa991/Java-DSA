@@ -18,7 +18,6 @@ public class Class_1 {
         }
         System.out.println("Printing by asking inputs ");
         for (int i = 0; i < array2.length; i++) {
-            ;
             System.out.print(array2[i] + " ");
         }
         sc.close();
