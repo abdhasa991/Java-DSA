@@ -41,6 +41,16 @@ public class Class_2 {
         }
         return max_element; // Returns the maximum element found in the array
     }
+    // Method to find the minimum element in an array
+    public static int getMinElementInArray(int[] num) {
+        int min_element = Integer.MAX_VALUE; // Initialize to the maximum possible value
+        for (int i = 0; i < num.length; i++) {
+            if (num[i] < min_element) { // Compare num[i] with min_element
+                min_element = num[i]; // Update min_element if a smaller value is found
+            }
+        }
+        return min_element; // Returns the minimum element found in the array
+    }
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in); // Creating a scanner object for user input
@@ -79,6 +89,10 @@ public class Class_2 {
         int[] arr = {10, 20, 40, 30, 50};
         System.out.println("Max element in array is: " + getMaxElementInArray(arr)); // Calling the Method to get Max element in array.
 
+        // Creating an array and printing the minimum element
+        int[] arr1 = {10, 20, 40, 30, 50};
+        System.out.println("Min element in array is: " + getMinElementInArray(arr1)); // Calling the Method to get Min element in array.
+        
         sc.close(); // Closing the scanner to prevent resource leaks
     }
 }
