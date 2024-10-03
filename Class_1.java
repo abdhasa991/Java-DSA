@@ -1,4 +1,4 @@
-import java.util.*;  // Importing the Scanner class from the java.util package for input handling.
+import java.util.Scanner;  // Importing the Scanner class from the java.util package for input handling.
 
 public class Class_1 {
 
