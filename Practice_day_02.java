@@ -1,7 +1,7 @@
 import java.util.ArrayList;  // Importing the ArrayList class from java.util package
 import java.util.Arrays;     // Importing the Arrays class for array manipulation
 
-public class Practic {
+public class Practice_day_02 {
 
     // Function to check if a number is even
     public static boolean checkOddOrEven(int num) {
