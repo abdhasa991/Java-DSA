@@ -22,7 +22,7 @@ public class Practice_day_02 {
     // Function to check if a number is prime
     public static boolean checkPrimeNumber(int num) {
         int count = 0; // Counter for the number of divisors
-        // If num is less than or equal to 1, it is not prime
+        // If num is less than or equal to 1, it is not prime.
         if (num <= 1) {
             return false;
         }
