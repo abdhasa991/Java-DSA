@@ -30,6 +30,7 @@ public class Quick_Sort {
     public static void main(String[] args) {
         int[] array = {4, 2, 0, 3, 5, 0, 1};
         quickSort(array, 0, array.length - 1); 
+        System.out.println("Name: Muhammad Abdullah");
         System.out.println(Arrays.toString(array)); 
     }
 }
